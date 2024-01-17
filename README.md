@@ -1,2 +1,1 @@
-# holbertonschool-sorting_algorithms
-Sorting-algorithm
+This is README file fore sorting_algorithms
