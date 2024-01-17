@@ -33,7 +33,7 @@ return;
 for (i = 0; i < size - 1; i++)
 {
 min = array + i;
-for (j = i + 1; j < size; j++) 
+for (j = i + 1; j < size; j++)
 min = (array[j] < *min) ? (array + j) : min;
 
 if ((array + i) != min)
