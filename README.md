@@ -16,7 +16,7 @@
 
 ## Installation
 1. Clone the repository
-`https://github.com/seymur4ik/holbertonschool-sorting_algorithms/blob/main/sort.h`
+`https://github.com/seymur4ik/holbertonschool-sorting_algorithms`
 
 2. Compile the program
 `gcc -Wall -Wextra -Werror -pedantic main.c *.c print_array.c -o quick`
