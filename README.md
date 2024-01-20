@@ -27,7 +27,8 @@
 
 ## Example
 ```
-./quick
+alex@/tmp/sort$ gcc -Wall -Wextra -Werror -pedantic 3-main.c 3-quick_sort.c print_array.c -o quick
+alex@/tmp/sort$ ./quick
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7
 
 7, 48, 99, 71, 13, 52, 96, 73, 86, 19
