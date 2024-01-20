@@ -1,7 +1,15 @@
 #include "sort.h"
-
-
-int partition(int *array, size_t size, int left, int right)
+/**
+ * l_partition - Order a subset of an array of integers according to
+ *  the lomuto partition scheme.
+ * @array: The array of integers.
+ * @size: The size of the array.
+ * @left: The starting index of the subset to order.
+ * @right: The ending index of the subset to order.
+ *
+ * Return: The final partition index.
+ */
+int l_partition(int *array, size_t size, int left, int right)
 {
 	int *pivot, above, below;
 
@@ -63,3 +71,4 @@ void quick_sort(int *array, size_t size)
 
 	sort(array, size, 0, size - 1);
 }
+
