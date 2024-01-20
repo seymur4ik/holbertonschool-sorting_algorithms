@@ -64,7 +64,7 @@ void sort(int *array, size_t size, int left, int right)
 
 	if (right - left > 0)
 	{
-		part = partition(array, size, left, right);
+		part = l_partition(array, size, left, right);
 		sort(array, size, left, part - 1);
 		sort(array, size, part + 1, right);
 	}
