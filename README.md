@@ -8,8 +8,6 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Example](#example)
-- [Other files](#other files)
-- [Technologies Used](#technologies used)
 
 ## Requirements
 - Ubuntu 20.04 LTS
